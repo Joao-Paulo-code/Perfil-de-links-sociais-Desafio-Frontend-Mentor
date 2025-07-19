@@ -1,0 +1,89 @@
+.container {
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'inter', sans-serif;
+}
+
+.cartao {
+    background-color: hsl(0, 0%, 12%);
+    min-height: 45rem;
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+
+.avatar {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 2rem 0 1.5rem;
+    border: 2px solid hsl(0, 0%, 20%);
+}
+
+.nome {
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.localizacao {
+    color: hsl(75, 94%, 57%);
+
+}
+
+.descricao {
+    color: hsl(0, 0%, 70%);
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 30px;
+}
+
+.links {
+    list-style-type: none;
+}
+
+.links .link {
+    width: 22rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    font-weight: 600;
+    border-radius: .5rem;
+    text-decoration: none;
+
+}
+
+.link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.attribution {
+    color: hsl(0, 0%, 70%);
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);
+}
